@@ -18,5 +18,5 @@ use Illuminate\Support\Facades\Route;
 //    return $request->user();
 //});
 
-Route::get('/all_users', [\App\Http\Controllers\API\UserController::class, 'All_Users']);
+Route::get('/users', [\App\Http\Controllers\API\UserController::class, 'All_Users']);
 
